@@ -3,6 +3,7 @@ import emailSvg from "../assets/email.svg";
 import lockSvg from "../assets/lock.svg";
 import write from "../assets/WrittingPen.svg";
 import phone from "../assets/phone.svg";
+import Loading from "../assets/Loading.svg";
 import SmallRightArrow from "../assets/SmallRightArrow.svg";
 import backArrow from "../assets/BackwardArrow.svg";
 import { useNavigate } from "react-router-dom";
@@ -50,6 +51,8 @@ function validatePassword(password, confirmPassword) {
 
 const Signup = () => {
   const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
+  const [loadingMessage, setLoadingMessage] = useState("Signing up...");
   const { signup, addUserToFirestore } = useAuth();
 
   const [step, setStep] = useState(1);
@@ -81,6 +84,8 @@ const Signup = () => {
     if (validatePassword(password, confirmPassword)) {
       // Call the SignUp function if all validations pass
       try {
+        setLoading(true); // Set loading state to true
+        setLoadingMessage("Signing up...");
         // Step 1: Sign up the user using Firebase Authentication
         await signup(email, password);
 
@@ -93,6 +98,8 @@ const Signup = () => {
       } catch (error) {
         // Handle any errors that occur during signup
         console.error("Signup Error:", error);
+      } finally {
+        setLoading(false); // Set loading state to false when login is complete
       }
     }
   };
@@ -120,20 +127,32 @@ const Signup = () => {
           />
         )}
         {step === 2 ? (
-          <div
-            id="buttonAndLinks"
-            className="flex flex-col items-center justify-center gap-3 pt-8"
-          >
-            <button
-              type="submit"
-              className="w-28 h-10 rounded-full bg-lime-green hover:border-dashed hover:border-2 hover:border-green-300"
-            >
-              Sign Up
-            </button>
-            <button className="underline" onClick={() => navigate("/login")}>
-              Already have an account? Login
-            </button>
-          </div>
+          <>
+            {loading ? (
+              <div className="flex flex-col items-center justify-center">
+                <img src={Loading} alt="Loading" />
+                {loadingMessage}
+              </div>
+            ) : (
+              <div
+                id="buttonAndLinks"
+                className="flex flex-col items-center justify-center gap-3 pt-8"
+              >
+                <button
+                  type="submit"
+                  className="w-28 h-10 rounded-full bg-lime-green hover:border-dashed hover:border-2 hover:border-green-300"
+                >
+                  Sign Up
+                </button>
+                <button
+                  className="underline"
+                  onClick={() => navigate("/login")}
+                >
+                  Already have an account? Login
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div
             id="buttonAndLinks"
