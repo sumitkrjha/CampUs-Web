@@ -1,4 +1,4 @@
-### About US Page
+### Contribution Detail - AboutUS Page
 
 - Create the About us Page as per the provided [Figma design](https://www.figma.com/proto/MfbtIqwt0fjPtmWOuQ7yCQ/CampUs?type=design&node-id=12-364&t=9JuB3TEFpHrqwBXt-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=12%3A364) provided by the GDSC JSSSTU. 
 
