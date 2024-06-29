@@ -29,10 +29,10 @@ Create an aesthetic and responsive About us Page, and stick to the hex codes usi
 
 **Branches:**
 
-1. **home-landing-page:** This branch reflects the contribution made to the Home/Landing page based on the provided Figma file. [Replace with branch URL when available]
-2. **signup-jsx:** This branch showcases the changes made to the Signup.jsx component as per the Figma design. [Replace with branch URL when available]
-3. **login:** This branch includes the code contributions for the Login functionality. [Replace with branch URL when available]
-4. **logout:** This branch contains the implementation for the Logout functionality. [Replace with branch URL when available]
-5. **about-us:** This branch reflects the code contributed to the About Us section. [Replace with branch URL when available]
+1. **[Home/Landing Page:](https://github.com/sumitkrjha/CampUs-Web/tree/LandingPage)** This branch reflects the contribution made to the Home/Landing page based on the provided Figma file. 
+2. **[Signup.jsx:](https://github.com/sumitkrjha/CampUs-Web/tree/SignupFirebase)** This branch showcases the changes made to the Signup.jsx component as per the Figma design. 
+3. **[Login:](https://github.com/sumitkrjha/CampUs-Web/tree/LoginFirebase)** This branch includes the code contributions for the Login functionality. 
+4. **[Logout:](https://github.com/sumitkrjha/CampUs-Web/tree/LogoutFunction)** This branch contains the implementation for the Logout functionality. 
+5. **[About Us:](https://github.com/sumitkrjha/CampUs-Web/tree/AboutUsPage)** This branch reflects the code contributed to the About Us section.
 
 This repository highlights my coding skills and contributions to the CampUs-Web project, even though they were made from a suspended account.
