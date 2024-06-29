@@ -1,6 +1,5 @@
 ### CampUs-Web Contributions
 
-This repository showcases contributions made to the CampUs-Web project, a university-based community-building application.
 
 **Originally contributed to:**
 
