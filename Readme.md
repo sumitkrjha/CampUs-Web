@@ -1,21 +1,31 @@
-### CampUs-Web Contributions
+### About US Page
+
+- Create the About us Page as per the provided [Figma design](https://www.figma.com/proto/MfbtIqwt0fjPtmWOuQ7yCQ/CampUs?type=design&node-id=12-364&t=9JuB3TEFpHrqwBXt-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=12%3A364) provided by the GDSC JSSSTU. 
+
+- Implemented the design with pixel perfection using **ReactJS** and **Tailwind CSS**.
+
+#### Motivation
+AboutUs.jsx: Implement the component.
+
+#### Changes
+Create an aesthetic and responsive About us Page, and stick to the hex codes using in the design.
+
+#### Without Login about section
+  ![277287237-dcebec94-f246-4083-bf92-501ab0e4b945](https://github.com/sumitkrjha/CampUs-Web/assets/167055828/b363ff61-5699-4718-8099-bd79ff0af4b3)
+
+#### With Login about section
+  ![277288978-a859c5d6-f9f7-41bf-9fc8-2dea5e006c96](https://github.com/sumitkrjha/CampUs-Web/assets/167055828/b3662307-4a65-43f4-bc5d-b4cdba564b72)
 
 
-**Originally contributed to:**
+### Screenshot of the Conversation
+  ![image](https://github.com/sumitkrjha/CampUs-Web/assets/167055828/fc32f25f-dc20-4a39-aea1-198a0369d3c0)
+  ![image](https://github.com/sumitkrjha/CampUs-Web/assets/167055828/77d18b27-6063-453e-9029-61d2cda10fe1)
 
-- [My Github Account](https://github.com/sumit-kumar-jha1709)
-- [CampUs Web owned by GDSC JSSSTU](https://github.com/gdsc-jssstu/campUS-Web)
+### Screenshot of File Changed
+  ![image](https://github.com/sumitkrjha/CampUs-Web/assets/167055828/dcdfd679-9367-4efe-9386-74baf094f19b)
+  ![image](https://github.com/sumitkrjha/CampUs-Web/assets/167055828/2f52d616-90b4-44fa-abb8-55ff0d04199b)
+  ![image](https://github.com/sumitkrjha/CampUs-Web/assets/167055828/87eaf883-e89a-41b7-bda6-bc5b942b1b27)
 
-**Purpose:**
-
-- This repository serves as a portfolio to demonstrate my merged pull requests (PRs) on the aforementioned project due to my previous account suspension on GitHub.
-- Later Github did reinstate the account but as of now the account and its contributions has not been publically visible.
-
-**Contents:**
-
-- Separate branches for each contribution, named descriptively to reflect the PR's purpose.
-- Within each branch, the specific files edited and contributed in the original PRs.
-- A README.md file providing context about the situation and descriptions of each code contribution.
 
 **Branches:**
 
